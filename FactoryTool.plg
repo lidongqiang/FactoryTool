@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FactoryTool - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\seth\AppData\Local\Temp\RSPB512.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "Grid" /I "ButtonST" /I "XGroupBox" /I "FontStatic" /I "ColumnTreeCtrl" /I "cmLib" /I "upgradeLib" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "_UNICODE" /D "UNICODE" /FR"Debug/" /Fp"Debug/FactoryTool.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\文件系统组计划\RKUpgradeLibrary\TS_FactoryTool_Src\XGroupBox\XGroupBox.cpp"
+]
+Creating command line "cl.exe @C:\Users\seth\AppData\Local\Temp\RSPB512.tmp" 
+Creating temporary file "C:\Users\seth\AppData\Local\Temp\RSPB513.tmp" with contents
+[
+/nologo /entry:"wWinMainCRTStartup" /subsystem:windows /incremental:yes /pdb:"Debug/FactoryTool_Debug.pdb" /debug /machine:I386 /out:"bin/FactoryTool_Debug.exe" /pdbtype:sept /libpath:"cmLib" /libpath:"upgradeLib" 
+".\Debug\BtnST.obj"
+".\Debug\ColumnTreeCtrl.obj"
+".\Debug\FactoryTool.obj"
+".\Debug\FactoryToolDlg.obj"
+".\Debug\FontStatic.obj"
+".\Debug\GridButton.obj"
+".\Debug\GridEdit.obj"
+".\Debug\GridListBox.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TitleTip.obj"
+".\Debug\VirtualGridCtrl.obj"
+".\Debug\XGroupBox.obj"
+".\Debug\FactoryTool.res"
+]
+Creating command line "link.exe @C:\Users\seth\AppData\Local\Temp\RSPB513.tmp"
+<h3>Output Window</h3>
+Compiling...
+XGroupBox.cpp
+TmSchema.h is obsolete. Please include vssym32.h instead.
+Linking...
+LINK : warning LNK4076: invalid incremental status file "bin/FactoryTool_Debug.ilk"; linking nonincrementally
+
+
+
+<h3>Results</h3>
+FactoryTool_Debug.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

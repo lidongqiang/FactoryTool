@@ -1,0 +1,234 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\FactoryTool.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\logo.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FACTORYTOOL_DIALOG DIALOGEX 0, 0, 700, 550
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "工厂工具"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "固件",IDC_BUTTON_FIRMWARE,7,7,72,33
+    PUSHBUTTON      "启动",IDC_BUTTON_RUN,80,7,72,33
+    CONTROL         "升级",IDC_RADIO_UPGRADE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,165,17,40,16
+    CONTROL         "修复",IDC_RADIO_RESTORE,"Button",BS_AUTORADIOBUTTON,219,
+                    18,40,16
+    PUSHBUTTON      "Demo拷贝",IDC_BUTTON_DEMO,274,7,72,33
+    PUSHBUTTON      "语言选择",IDC_BUTTON_LANGUAGE,345,7,72,33
+    PUSHBUTTON      "退出",IDC_BUTTON_EXIT,417,7,72,33
+    LTEXT           "正在升级",IDC_STATIC_INFO11,337,508,150,19
+    LTEXT           "正在升级",IDC_STATIC_INFO12,527,508,150,19
+    LTEXT           "正在升级",IDC_STATIC_INFO6,527,294,150,19
+    LTEXT           "正在升级",IDC_STATIC_INFO8,527,365,150,19
+    LTEXT           "正在升级",IDC_STATIC_INFO7,337,365,150,19
+    LTEXT           "正在升级",IDC_STATIC_INFO9,337,436,150,19
+    LTEXT           "正在升级",IDC_STATIC_INFO10,527,436,150,19
+    LTEXT           "正在升级",IDC_STATIC_INFO2,527,147,150,19
+    LTEXT           "正在升级",IDC_STATIC_INFO4,527,221,150,19
+    LTEXT           "正在升级",IDC_STATIC_INFO3,337,221,150,19
+    LTEXT           "正在升级",IDC_STATIC_INFO5,337,294,150,19
+    LTEXT           "正在升级",IDC_STATIC_INFO1,337,147,150,19
+    GROUPBOX        "",IDC_STATIC_RUNOPTION,152,3,122,38
+    LTEXT           "固件:",IDC_STATIC_FIRMWARE,11,53,45,18
+    LTEXT           "Demo:",IDC_STATIC_DEMO,11,80,45,18
+    EDITTEXT        IDC_EDIT_DEMO,72,80,271,18,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_FIRMWARE,72,49,271,18,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "固件版本:1.0.0.2",IDC_STATIC_FWVERSION,362,53,104,14
+    LTEXT           "Loader版本:1.35",IDC_STATIC_LOADERVER,479,53,96,14
+    LTEXT           "芯片信息:RK31",IDC_STATIC_FWCHIP,362,84,118,14
+    CONTROL         "Tree1",IDC_TREE_DEVICEINFO,"SysTreeView32",WS_BORDER | 
+                    WS_TABSTOP,7,120,306,283
+    GROUPBOX        "友情提示:",IDC_STATIC_HELP,7,407,307,136
+    CONTROL         "",IDC_PICTURE_LED,"Static",SS_BLACKFRAME,596,13,90,80,
+                    WS_EX_TRANSPARENT
+    LTEXT           "ID:",IDC_STATIC_GROUP1,331,120,162,54
+    LTEXT           "ID:",IDC_STATIC_GROUP2,522,120,162,54
+    LTEXT           "ID:",IDC_STATIC_GROUP3,331,192,162,54
+    LTEXT           "ID:",IDC_STATIC_GROUP4,522,192,162,54
+    LTEXT           "ID:",IDC_STATIC_GROUP5,331,264,162,54
+    LTEXT           "ID:",IDC_STATIC_GROUP6,522,264,162,54
+    LTEXT           "ID:",IDC_STATIC_GROUP7,331,336,162,54
+    LTEXT           "ID:",IDC_STATIC_GROUP8,522,336,162,54
+    LTEXT           "ID:",IDC_STATIC_GROUP10,522,408,162,54
+    LTEXT           "ID:",IDC_STATIC_GROUP9,331,408,162,54
+    LTEXT           "ID:",IDC_STATIC_GROUP12,522,480,162,54
+    LTEXT           "ID:",IDC_STATIC_GROUP11,331,480,162,54
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "FactoryTool Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "FactoryTool\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2013\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "FactoryTool.EXE\0"
+            VALUE "ProductName", "FactoryTool 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_FACTORYTOOL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 693
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 543
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_GREENLED     BITMAP  DISCARDABLE     "res\\green_led.bmp"
+IDB_BITMAP_DEMO         BITMAP  DISCARDABLE     "res\\Demo.bmp"
+IDB_BITMAP_FIRMWARE     BITMAP  DISCARDABLE     "res\\firmware.bmp"
+IDB_BITMAP_RUN          BITMAP  DISCARDABLE     "res\\run.bmp"
+IDB_BITMAP_PAUSE        BITMAP  DISCARDABLE     "res\\pause.bmp"
+IDB_BITMAP_EXIT         BITMAP  DISCARDABLE     "res\\exit.bmp"
+IDB_BITMAP_LANGUAGE     BITMAP  DISCARDABLE     "res\\language.bmp"
+IDB_BITMAP_REDLED       BITMAP  DISCARDABLE     "res\\red_led.bmp"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\FactoryTool.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
